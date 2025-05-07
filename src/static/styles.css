@@ -72,12 +72,19 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .activity-card p strong {
   display: block;
   margin-top: 10px;
   color: #333;
+}
+
+.activity-card p:last-child {
+  font-size: 14px;
+  color: #1a237e; /* Updated to a more appealing color */
+  margin-top: 10px;
 }
 
 .form-group {
@@ -114,7 +121,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
